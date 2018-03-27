@@ -1,0 +1,423 @@
+{
+    "PriceBotTemplateFormatVersion" : "2017-12-05",
+  
+    "Description" : "Configuration file of price PriceBot",
+
+    "RunList": {
+        "valid":[
+            "Blusa",
+            "Playera",
+            "Top",
+            "Vestido",
+            "Ellas+Chamarra",
+            "Vestido+Noche",
+            "Faldas",
+            "Ellas+Jeans",
+            "Chamarra+Ellos",
+            "Jeans+Ellos",
+            "Trajes",
+            "Julio+Vestidos",
+            "Julio+Blusas",
+            "Julio+Pantalones",
+            "Julio+Abrigos",
+            "Julio+Faldas",
+            "Julio+Jeans",
+            "Julio+Chamarras",
+            "Julio+Sweater"
+        ],
+        "active":[
+            "Julio+Faldas",            
+            "Julio+Sweater",
+            "Julio+Blusas",  
+            "Jeans+Ellos",            
+            "Blusa",
+            "Playera",
+            "Top",
+            "Vestido",
+            "Ellas+Chamarra",
+            "Vestido+Noche",
+            "Faldas",
+            "Ellas+Jeans",
+            "Chamarra+Ellos",
+            "Trajes",
+            "Julio+Vestidos",
+            "Julio+Pantalones",
+            "Julio+Abrigos",
+            "Julio+Jeans",
+            "Julio+Chamarras",
+            "Vestido+Checa",
+            "Blusa+Checa",
+            "Playera+Checa",
+            "Top+Checa"
+                        
+        ]
+    },
+  
+    "TwitterAccounts" : [
+        {
+            "name":"BlusasPalacio",
+            "consumer_key": "",
+            "consumer_secret": "",
+            "access_token": "-",
+            "access_token_secret": ""
+        },
+        {
+            "name":"PlayerasPalacio",
+            "consumer_key": "",
+            "consumer_secret": "",
+            "access_token": "-",
+            "access_token_secret": ""
+        },   
+        {         
+            "name":"VestidosPalacio",
+            "consumer_key": "",
+            "consumer_secret": "",
+            "access_token": "-",
+            "access_token_secret": ""
+        },   
+        {        
+            "name":"ChecaTuPrecio",
+            "consumer_key": "",
+            "consumer_secret": "",
+            "access_token": "-",
+            "access_token_secret": ""
+        },
+        {
+            "name":"ChecaTuOferta",
+            "consumer_key": "",
+            "consumer_secret": "",
+            "access_token": "-",
+            "access_token_secret": ""
+        }
+    ],
+
+    "Sites" : [  
+        {
+            "url":"https://www.elpalaciodehierro.com/ellas/ellas-ropa/ellas-ropa-blusas-camisas.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":17,
+            "collection":"blusas",
+            "inner_link":"/ellas/ellas-ropa/ellas-ropa-blusas-camisas/",
+            "title":"Blusa",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #Blusa + $$$ esta semana",
+                "#PreciosPalacio #Blusa menos $ esta semana",
+                "#PreciosPalacio #Blusa #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["BlusasPalacio","BlusasPalacio","ChecaTuPrecio"]
+        },
+        {
+            "url":"https://www.elpalaciodehierro.com/ellas/ellas-ropa/ellas-ropa-blusas-camisas.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":17,
+            "collection":"blusas",
+            "inner_link":"/ellas/ellas-ropa/ellas-ropa-blusas-camisas/",
+            "title":"Blusa+Checa",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #Blusa + $$$ esta semana",
+                "#PreciosPalacio #Blusa menos $ esta semana",
+                "#PreciosPalacio #Blusa #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio","BlusasPalacio","ChecaTuPrecio"]
+        },
+        {
+            "url":"https://www.elpalaciodehierro.com/ellos/ellos-ropa/ellos-ropa-playeras-polos.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":14,
+            "collection":"playeras",
+            "inner_link":"/ellos/ellos-ropa/ellos-ropa-playeras-polos/",
+            "title":"Playera",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #Playera + $$$ esta semana",
+                "#PreciosPalacio #Playera menos $ esta semana",
+                "#PreciosPalacio #Playera #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["PlayerasPalacio","PlayerasPalacio","ChecaTuPrecio"]
+        },
+        {
+            "url":"https://www.elpalaciodehierro.com/ellos/ellos-ropa/ellos-ropa-playeras-polos.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":14,
+            "collection":"playeras",
+            "inner_link":"/ellos/ellos-ropa/ellos-ropa-playeras-polos/",
+            "title":"Playera+Checa",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #Playera + $$$ esta semana",
+                "#PreciosPalacio #Playera menos $ esta semana",
+                "#PreciosPalacio #Playera #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio","PlayerasPalacio","ChecaTuPrecio"]
+        },
+        {
+            "url":"https://www.elpalaciodehierro.com/ellas/ellas-ropa/ellas-ropa-tops.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":5,
+            "collection":"tops",
+            "inner_link":"/ellas/ellas-ropa/ellas-ropa-tops/",
+            "title":"Top",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #Tops + $$$ esta semana",
+                "#PreciosPalacio #Tops menos $ esta semana",
+                "#PreciosPalacio #Tops #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["BlusasPalacio","BlusasPalacio","ChecaTuPrecio"]
+        },    
+        {
+            "url":"https://www.elpalaciodehierro.com/ellas/ellas-ropa/ellas-ropa-tops.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":5,
+            "collection":"tops",
+            "inner_link":"/ellas/ellas-ropa/ellas-ropa-tops/",
+            "title":"Top+Checa",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #Tops + $$$ esta semana",
+                "#PreciosPalacio #Tops menos $ esta semana",
+                "#PreciosPalacio #Tops #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio","BlusasPalacio","ChecaTuPrecio"]
+        },      
+        {
+            "url":"https://www.elpalaciodehierro.com/ellas/ellas-ropa/ellas-ropa-vestido.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":12,
+            "collection":"vestidos",
+            "inner_link":"/ellas/ellas-ropa/ellas-ropa-vestido/",
+            "title":"Vestido",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #Vestido + $$$ esta semana",
+                "#PreciosPalacio #Vestido menos $ esta semana",
+                "#PreciosPalacio #Vestido #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["VestidosPalacio","VestidosPalacio","ChecaTuPrecio"]
+        },   
+        {
+            "url":"https://www.elpalaciodehierro.com/ellas/ellas-ropa/ellas-ropa-vestido.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":12,
+            "collection":"vestidos",
+            "inner_link":"/ellas/ellas-ropa/ellas-ropa-vestido/",
+            "title":"Vestido+Checa",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #Vestido + $$$ esta semana",
+                "#PreciosPalacio #Vestido menos $ esta semana",
+                "#PreciosPalacio #Vestido #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio","VestidosPalacio","ChecaTuPrecio"]
+        },   
+        {
+            "url":"https://www.elpalaciodehierro.com/ellas/ellas-ropa/ellas-ropa-chamarras-chalecos.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":6,
+            "collection":"chamarras",
+            "inner_link":"/ellas/ellas-ropa/ellas-ropa-chamarras-chalecos/",
+            "title":"Ellas+Chamarra",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #ChamarraDama + $$$ esta semana",
+                "#PreciosPalacio #ChamarraDama menos $ esta semana",
+                "#PreciosPalacio #ChamarraDama #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },        
+        {
+            "url":"https://www.elpalaciodehierro.com/ellas/ellas-ropa/ellas-ropa-vestidos-de-noche.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":1,
+            "collection":"vestidosnoche",
+            "inner_link":"/ellas/ellas-ropa/ellas-ropa-vestidos-de-noche/",
+            "title":"Vestido+Noche",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #VestidoNoche + $$$ esta semana",
+                "#PreciosPalacio #VestidoNoche menos $ esta semana",
+                "#PreciosPalacio #VestidoNoche #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },        
+        {
+            "url":"https://www.elpalaciodehierro.com/ellas/ellas-ropa/ellas-ropa-faldas.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":3,
+            "collection":"faldas",
+            "inner_link":"/ellas/ellas-ropa/ellas-ropa-faldas/",
+            "title":"Faldas",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #Falda + $$$ esta semana",
+                "#PreciosPalacio #Falda menos $ esta semana",
+                "#PreciosPalacio #Falda #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },        
+        {
+            "url":"https://www.elpalaciodehierro.com/ellas/ellas-ropa/ellas-ropa-jeans.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":4,
+            "collection":"jeans",
+            "inner_link":"/ellas/ellas-ropa/ellas-ropa-jeans/",
+            "title":"Ellas+Jeans",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #JeansDama + $$$ esta semana",
+                "#PreciosPalacio #JeansDama menos $ esta semana",
+                "#PreciosPalacio #JeansDama #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },        
+        {
+            "url":"https://www.elpalaciodehierro.com/ellos/ellos-ropa/ellos-ropa-chamarras-chalecos.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":7,
+            "collection":"elloschamarras",
+            "inner_link":"/ellos/ellos-ropa/ellos-ropa-chamarras-chalecos/",
+            "title":"Chamarra+Ellos",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #ChamarraHombre + $$$ esta semana",
+                "#PreciosPalacio #ChamarraHombre menos $ esta semana",
+                "#PreciosPalacio #ChamarraHombre #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },        
+        {
+            "url":"https://www.elpalaciodehierro.com/ellos/ellos-ropa/ellos-ropa-jeans.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":5,
+            "collection":"ellosjeans",
+            "inner_link":"/ellos/ellos-ropa/ellos-ropa-jeans/",
+            "title":"Jeans+Ellos",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #JeansHombre + $$$ esta semana",
+                "#PreciosPalacio #JeansHombre menos $ esta semana",
+                "#PreciosPalacio #JeansHombre #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },        
+        {
+            "url":"https://www.elpalaciodehierro.com/ellos/ellos-ropa/ellos-ropa-trajes.html?limit=72&p=PARM",
+            "PARM_start":1,
+            "PARM_end":3,
+            "collection":"trajes",
+            "inner_link":"/ellos/ellos-ropa/ellos-ropa-trajes/",
+            "title":"Trajes",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosPalacio #Traje + $$$ esta semana",
+                "#PreciosPalacio #Traje menos $ esta semana",
+                "#PreciosPalacio #Traje #MayorDescuentoPalacio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },
+        {
+            "url":"http://www.julio.com/buscapagina?fq=C%3a%2f1%2f11%2f&O=OrderByReleaseDateDESC&PS=9&sl=50cdbdc6-fc1e-4c36-a52d-0f56481a3a67&cc=1&sm=0&PageNumber=PARM",
+            "PARM_start":1,
+            "PARM_end":20,
+            "collection":"julio-vestidos",
+            "inner_link":"<a.*p\">$",
+            "title":"Julio+Vestidos",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosJulio #Vestido + $$$ esta semana",
+                "#PreciosJulio #Vestido menos $ esta semana",
+                "#PreciosJulio #Vestido #MayorDescuentoJulio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },
+        {
+            "url":"http://www.julio.com/buscapagina?fq=C%3a%2f1%2f8%2f&O=OrderByReleaseDateDESC&PS=9&sl=50cdbdc6-fc1e-4c36-a52d-0f56481a3a67&cc=1&sm=0&PageNumber=PARM",
+            "PARM_start":1,
+            "PARM_end":20,
+            "collection":"julio-blusas",
+            "inner_link":"<a.*p\">$",
+            "title":"Julio+Blusas",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosJulio #Blusa + $$$ esta semana",
+                "#PreciosJulio #Blusa menos $ esta semana",
+                "#PreciosJulio #Blusa #MayorDescuentoJulio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },
+        {
+            "url":"http://www.julio.com/buscapagina?fq=C%3a%2f1%2f16%2f&O=OrderByReleaseDateDESC&PS=9&sl=50cdbdc6-fc1e-4c36-a52d-0f56481a3a67&cc=1&sm=0&PageNumber=PARM",
+            "PARM_start":1,
+            "PARM_end":9,
+            "collection":"julio-pantalones",
+            "inner_link":"<a.*p\">$",
+            "title":"Julio+Pantalones",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosJulio #PantalonDama + $$$ esta semana",
+                "#PreciosJulio #PantalonDama menos $ esta semana",
+                "#PreciosJulio #PantalonDama #MayorDescuentoJulio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },        
+        {
+            "url":"http://www.julio.com/buscapagina?fq=C%3a%2f1%2f12%2f&O=OrderByReleaseDateDESC&PS=9&sl=50cdbdc6-fc1e-4c36-a52d-0f56481a3a67&cc=1&sm=0&PageNumber=PARM",
+            "PARM_start":1,
+            "PARM_end":4,
+            "collection":"julio-abrigos",
+            "inner_link":"<a.*p\">$",
+            "title":"Julio+Abrigos",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosJulio #AbrigoDama + $$$ esta semana",
+                "#PreciosJulio #AbrigoDama menos $ esta semana",
+                "#PreciosJulio #AbrigoDama #MayorDescuentoJulio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },        
+        {
+            "url":"http://www.julio.com/buscapagina?fq=C%3a%2f1%2f15%2f&O=OrderByReleaseDateDESC&PS=9&sl=50cdbdc6-fc1e-4c36-a52d-0f56481a3a67&cc=1&sm=0&PageNumber=PARM",
+            "PARM_start":1,
+            "PARM_end":4,
+            "collection":"julio-faldas",
+            "inner_link":"<a.*p\">$",
+            "title":"Julio+Faldas",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosJulio #Falda + $$$ esta semana",
+                "#PreciosJulio #Falda menos $ esta semana",
+                "#PreciosJulio #Falda #MayorDescuentoJulio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },        
+        {
+            "url":"http://www.julio.com/buscapagina?fq=C%3a%2f1%2f17%2f&O=OrderByReleaseDateDESC&PS=9&sl=50cdbdc6-fc1e-4c36-a52d-0f56481a3a67&cc=1&sm=0&PageNumber=PARM",
+            "PARM_start":1,
+            "PARM_end":3,
+            "collection":"julio-jeans",
+            "inner_link":"<a.*p\">$",
+            "title":"Julio+Jeans",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosJulio #JeansDama + $$$ esta semana",
+                "#PreciosJulio #JeansDama menos $ esta semana",
+                "#PreciosJulio #JeansDama #MayorDescuentoJulio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },        
+        {
+            "url":"http://www.julio.com/buscapagina?fq=C%3a%2f1%2f13%2f&O=OrderByReleaseDateDESC&PS=9&sl=50cdbdc6-fc1e-4c36-a52d-0f56481a3a67&cc=1&sm=0&PageNumber=PARM",
+            "PARM_start":1,
+            "PARM_end":4,
+            "collection":"julio-chamarras",
+            "inner_link":"<a.*p\">$",
+            "title":"Julio+Chamarras",
+            "tweet_flag": "yes_tweet",
+            "tweet_text": [ "#PreciosJulio #ChamarraDama + $$$ esta semana",
+                "#PreciosJulio #ChamarraDama menos $ esta semana",
+                "#PreciosJulio #ChamarraDama #MayorDescuentoJulio esta semana: "
+              ],
+            "twitter": ["ChecaTuPrecio"]
+        },        
+        {
+            "url":"http://www.julio.com/buscapagina?fq=C%3a%2f1%2f19%2f&O=OrderByReleaseDateDESC&PS=9&sl=50cdbdc6-fc1e-4c36-a52d-0f56481a3a67&cc=1&sm=0&PageNumber=PARM",
+            "PARM_start":1,
+            "PARM_end":4,
+            "collection":"julio-sweater",
+            "inner_link":"<a.*p\">$",
+            "title":"Julio+Sweater",
+            "tweet_text": [ "#PreciosJulio #SueterDama + $$$ esta semana",
+                            "#PreciosJulio #SueterDama menos $ esta semana",
+                            "#PreciosJulio #SueterDama #MayorDescuentoJulio esta semana: "
+                          ],
+            "tweet_flag": "yes_tweet",
+            "twitter": ["ChecaTuPrecio"]
+        }           
+    ],
+
+    "DB" : "mongodb://:@.mlab.com:47789/"
+}
+
+
+       
